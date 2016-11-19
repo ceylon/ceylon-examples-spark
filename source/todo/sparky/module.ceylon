@@ -1,3 +1,8 @@
+"Todo list example application for [Spark].
+ Based on [this example][spark-intercooler].
+
+ [Spark]: http://sparkjava.com/
+ [spark-intercooler]: https://github.com/tipsy/spark-intercooler"
 native ("jvm")
 module todo.sparky "1.0.0" {
     import java.base "8";
