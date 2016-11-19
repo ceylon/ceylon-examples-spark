@@ -25,3 +25,13 @@ To run the Todo list example, in this directory, type:
     ceylon run todo.sparky
 
 And got to <http://localhost:9999>.
+
+## Assembling and running a fat jar
+
+To assemble a "fat" jar, in this directory, type:
+
+    ceylon fat-jar hello.sparky
+
+Then, to run the jar with `java`, type:
+
+    java -jar hello.sparky-1.0.0.jar
