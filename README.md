@@ -5,6 +5,13 @@ with Ceylon.
 
 [Spark]: http://sparkjava.com/
 
+## Requirements
+
+This project requires JDK 8 and [Ceylon] 1.3.1 or Ceylon IDE 
+1.3.1 for IntelliJ or Eclipse.
+
+[Ceylon]: https://ceylon-lang.org/download
+
 ## Compiling the examples
 
 To compile the examples, either import this project into 
