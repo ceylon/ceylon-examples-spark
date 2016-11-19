@@ -1,1 +1,8 @@
 .idea/libraries/*
+/modules/
+.DS_Store
+/.exploded/
+/classes/
+config~
+ide-config~
+workspace.xml

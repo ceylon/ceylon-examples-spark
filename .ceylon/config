@@ -9,3 +9,7 @@ flatclasspath=true
 autoexportmavendependencies=true
 fullyexportmavendependencies=false
 overrides=overrides.xml
+encoding=UTF-8
+
+[formattool]
+profile=default
