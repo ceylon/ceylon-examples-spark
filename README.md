@@ -35,3 +35,11 @@ To assemble a "fat" jar, in this directory, type:
 Then, to run the jar with `java`, type:
 
     java -jar hello.sparky-1.0.0.jar
+
+## Gotcha: static files support in Spark
+
+Spark's support for serving static files from the classpath
+does not work if the server is executed with module 
+isolation. Therefore, it's necessary to run with the 
+`--flat-classpath` option enabled. This option is set by 
+default in the file `.ceylon/config`.
