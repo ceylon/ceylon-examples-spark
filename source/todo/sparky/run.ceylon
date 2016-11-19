@@ -65,6 +65,8 @@ shared void run() {
     get("/todos/:id/edit",
         (req, res) => renderEditTodo(req));
 
+    print("Starting server on http://localhost:9999/");
+
 }
 
 String renderEditTodo(Request req)
