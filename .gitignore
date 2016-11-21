@@ -6,3 +6,5 @@
 config~
 ide-config~
 workspace.xml
+*.jar
+
