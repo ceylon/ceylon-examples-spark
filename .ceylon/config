@@ -3,6 +3,9 @@
 source=source
 resource=resource
 
+[runtool]
+compile=check
+
 [defaults]
 offline=false
 flatclasspath=true

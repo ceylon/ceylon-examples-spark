@@ -8,7 +8,9 @@ with Ceylon.
 ## Requirements
 
 This project requires JDK 8 and [Ceylon] 1.3.1 or Ceylon IDE 
-1.3.1 for IntelliJ or Eclipse.
+1.3.1 for IntelliJ or Eclipse. On the command line you can use
+the provided `ceylonb` command if you don't have Ceylon already
+installed.
 
 [Ceylon]: https://ceylon-lang.org/download
 
@@ -17,25 +19,25 @@ This project requires JDK 8 and [Ceylon] 1.3.1 or Ceylon IDE
 To compile the examples, either import this project into 
 Ceylon IDE, or, in this directory, type:
 
-    ceylon compile
+    ./ceylonb compile
 
 ## Running the examples
 
 To run the Hello World example, in this directory, type:
 
-    ceylon run hello.sparky
+    ./ceylonb run hello.sparky
 
 And go to <http://localhost:4567/hello>.
 
 To run the HTML example, in this directory, type:
 
-    ceylon run html.sparky
+    ./ceylonb run html.sparky
 
 And go to <http://localhost:1234/>.
 
 To run the Todo list example, in this directory, type:
 
-    ceylon run todo.sparky
+    ./ceylonb run todo.sparky
 
 And got to <http://localhost:9999>.
 
@@ -43,7 +45,7 @@ And got to <http://localhost:9999>.
 
 To assemble a "fat" jar, in this directory, type:
 
-    ceylon fat-jar hello.sparky
+    ./ceylonb fat-jar hello.sparky
 
 Then, to run the jar with `java`, type:
 
@@ -56,3 +58,4 @@ does not work if the server is executed with module
 isolation. Therefore, it's necessary to run with the 
 `--flat-classpath` option enabled. This option is set by 
 default in the file `.ceylon/config`.
+
