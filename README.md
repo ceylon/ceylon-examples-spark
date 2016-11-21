@@ -27,6 +27,12 @@ To run the Hello World example, in this directory, type:
 
 And go to <http://localhost:4567/hello>.
 
+To run the HTML example, in this directory, type:
+
+    ceylon run html.sparky
+
+And go to <http://localhost:1234/>.
+
 To run the Todo list example, in this directory, type:
 
     ceylon run todo.sparky
