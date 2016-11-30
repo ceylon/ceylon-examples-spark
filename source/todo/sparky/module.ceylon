@@ -9,6 +9,6 @@ module todo.sparky "1.0.0" {
     import java.base "8";
     import ceylon.interop.java "1.3.1";
     import ceylon.collection "1.3.1";
-    import maven:"com.sparkjava:spark-core" "2.5.2";
-    import maven:"com.sparkjava:spark-template-velocity" "2.3";
+    import maven:com.sparkjava:"spark-core" "2.5.2";
+    import maven:com.sparkjava:"spark-template-velocity" "2.3";
 }
