@@ -11,4 +11,5 @@ module todo.sparky "1.0.0" {
     import ceylon.collection "1.3.1";
     import maven:com.sparkjava:"spark-core" "2.5.2";
     import maven:com.sparkjava:"spark-template-velocity" "2.3";
+    module maven:com.sparkjava:"spark-core" "2.3" => "2.5.2";
 }
