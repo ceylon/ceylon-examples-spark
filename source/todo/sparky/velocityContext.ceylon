@@ -1,11 +1,13 @@
 import ceylon.interop.java {
-    javaString,
     JavaList
 }
 
 import java.lang {
     JLong=Long,
-    JString=String
+    JString=String,
+    Types {
+        nativeString
+    }
 }
 import java.util {
     HashMap
@@ -16,11 +18,11 @@ HashMap<JString,Object> velocityContext({<String->Anything>*} model) {
     value map = HashMap<JString,Object>();
     for (key -> item in model) {
         if (exists item) {
-            map.put(javaString(key),
+            map.put(nativeString(key),
                 if (is Integer item)
                     then JLong(item)
                 else if (is String item)
-                    then javaString(item)
+                    then nativeString(item)
                 else if (is List<Anything> item)
                     then JavaList(item)
                 else item);
